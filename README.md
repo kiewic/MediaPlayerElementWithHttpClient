@@ -6,7 +6,7 @@
 
 ### Docs
 
-[`MediaPlayerElement`][mediaelement] is a control to play audio and video in Windows Universal/Store apps.
+[`MediaPlayerElement`][mediaplayerelement] is a control to play audio and video in Windows Universal/Store apps.
 
 However, when the audio or video is served from an internet server, using [`HttpClient`][httpclient] is a better choice to handle the request because you can provide:
 
@@ -40,5 +40,5 @@ The `HttpRandomAccessStream` class is a wrapper on top of `HttpClient` that can 
 Please give it a try and provide feedback.
 
 
-[mediaelement]: https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.mediaelement.aspx
+[mediaplayerelement]: https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.mediaplayerelement
 [httpclient]: https://msdn.microsoft.com/en-us/library/windows/apps/windows.web.http.httpclient.aspx
